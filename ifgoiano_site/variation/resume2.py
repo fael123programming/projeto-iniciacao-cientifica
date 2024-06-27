@@ -1,0 +1,10 @@
+from transformers import pipeline
+
+summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
+
+texto = """
+O Instituto Federal Goiano (IF Goiano) divulga o edital do processo seletivo estudantes de ensino médio da Rede Federal de Educação Profissional, Científica e Tecnológica para receberem bolsas de estudo de graduação oferecidos pela Universidad de Jaén, na Espanha. A seleção está sendo promovida pelo Conselho Nacional das Instituições da Rede Federal de Educação Profissional, Científica e Tecnológica (Conif) em parceria com o Escritório de Educação da Embaixada da Espanha. Interessados devem se inscrever até 15 de fevereiro, pela internet.
+O edital disponibiliza uma vaga, com formação de cadastro de reserva de até dez vagas, que constituirá lista única composta por candidatos de todas as instituições da Rede. A seleção contempla as áreas de Engenharias Civil, Elétrica, Geomática e Topografia, Mecânica, Química Industrial, Recursos Energéticos, Tecnologias Minerais e Telemática.
+A bolsa disponibilizada inclui cobertura de cem por cento dos gastos de matrícula dos créditos requeridos para a formação completa do programa de graduação, ajuda de custo anual no valor de Є2.200,00 (dois mil e duzentos euros) por beneficiário, auxílio financeiro para o seguro de saúde (enfermidade/hospitalização), repatriação, acidentes e responsabilidade civil de até Є190,00 (cento e noventa euros) durante o período de vigência da bolsa, oferta de curso de espanhol gratuito, incluindo os custos de deslocamento entre campus para as aulas do curso, caso seja necessário, cobertura de cem por cento dos gastos para reconhecimento de créditos para os estudantes que solicitarem e, em casos justificados, outros gastos necessários para a estadia na Universidad de Jaén poderão ser cobertos.
+"""
+print(summarizer(texto, max_length=5, min_length=5, do_sample=False)[0]['summary_text'])

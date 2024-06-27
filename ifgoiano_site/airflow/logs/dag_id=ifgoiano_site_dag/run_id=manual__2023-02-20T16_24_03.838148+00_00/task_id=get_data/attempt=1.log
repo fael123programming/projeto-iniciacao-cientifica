@@ -1,0 +1,42 @@
+[2023-02-20T16:24:12.794+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:24:03.838148+00:00 [queued]>
+[2023-02-20T16:24:12.819+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:24:03.838148+00:00 [queued]>
+[2023-02-20T16:24:12.819+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T16:24:12.821+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 6
+[2023-02-20T16:24:12.821+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T16:24:12.858+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_data> on 2023-02-20 16:24:03.838148+00:00
+[2023-02-20T16:24:12.870+0000] {standard_task_runner.py:55} INFO - Started process 4196 to run task
+[2023-02-20T16:24:12.889+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ifgoiano_site_dag', 'get_data', 'manual__2023-02-20T16:24:03.838148+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/ifgoiano_site_dag.py', '--cfg-path', '/tmp/tmp2vm354p7']
+[2023-02-20T16:24:12.893+0000] {standard_task_runner.py:83} INFO - Job 10: Subtask get_data
+[2023-02-20T16:24:13.060+0000] {task_command.py:388} INFO - Running <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:24:03.838148+00:00 [running]> on host f5b6b7502b7e
+[2023-02-20T16:24:13.272+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rafael
+AIRFLOW_CTX_DAG_ID=ifgoiano_site_dag
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T16:24:03.838148+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T16:24:03.838148+00:00
+[2023-02-20T16:24:13.291+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-20T16:24:14.908+0000] {logger.py:11} INFO - Get LATEST chromedriver version for chromium 110.0.5481
+[2023-02-20T16:24:15.756+0000] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20T16:24:17.048+0000] {logging_mixin.py:137} INFO - ----- Bot is running -----
+[2023-02-20T16:24:32.326+0000] {logging_mixin.py:137} INFO - (1) - Retificado resultado preliminar para cursos superiores
+[2023-02-20T16:25:12.680+0000] {logging_mixin.py:137} INFO - (2) - Divulgado edital para seleção de bolsistas do curso de Pedagogia EAD
+[2023-02-20T16:25:52.698+0000] {logging_mixin.py:137} INFO - (3) - Divulgado edital IF Mais Empreendedor
+[2023-02-20T16:26:47.513+0000] {logging_mixin.py:137} INFO - (4) - Prorrogadas inscrições para mestrados e doutorado
+[2023-02-20T16:27:01.253+0000] {local_task_job.py:273} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2023-02-20T16:27:01.265+0000] {process_utils.py:133} INFO - Sending Signals.SIGTERM to group 4196. PIDs of all processes in the group: [4237, 4243, 4258, 4259, 4276, 4323, 4312, 4196]
+[2023-02-20T16:27:01.266+0000] {process_utils.py:84} INFO - Sending the signal Signals.SIGTERM to group 4196
+[2023-02-20T16:27:01.267+0000] {taskinstance.py:1479} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-02-20T16:27:01.271+0000] {logging_mixin.py:137} INFO - ----- Exception raised: AirflowException -----
+[2023-02-20T16:27:01.323+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4259, status='terminated', started='16:24:15') (4259) terminated with exit code None
+[2023-02-20T16:27:01.351+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-20T16:27:01.357+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4237, status='terminated', started='16:24:15') (4237) terminated with exit code None
+[2023-02-20T16:27:01.367+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4312, status='terminated', started='16:24:16') (4312) terminated with exit code None
+[2023-02-20T16:27:01.444+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4243, status='terminated', started='16:24:15') (4243) terminated with exit code None
+[2023-02-20T16:27:01.453+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4323, status='terminated', started='16:24:16') (4323) terminated with exit code None
+[2023-02-20T16:27:01.485+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=ifgoiano_site_dag, task_id=get_data, execution_date=20230220T162403, start_date=20230220T162412, end_date=20230220T162701
+[2023-02-20T16:27:01.594+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4196, status='terminated', exitcode=0, started='16:24:12') (4196) terminated with exit code 0
+[2023-02-20T16:27:01.596+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4258, status='terminated', started='16:24:15') (4258) terminated with exit code None
+[2023-02-20T16:27:01.600+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=4276, status='terminated', started='16:24:15') (4276) terminated with exit code None

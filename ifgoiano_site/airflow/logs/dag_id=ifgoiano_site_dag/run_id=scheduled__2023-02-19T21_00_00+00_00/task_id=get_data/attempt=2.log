@@ -1,0 +1,306 @@
+[2023-02-20T21:17:15.079+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data scheduled__2023-02-19T21:00:00+00:00 [queued]>
+[2023-02-20T21:17:15.101+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data scheduled__2023-02-19T21:00:00+00:00 [queued]>
+[2023-02-20T21:17:15.102+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T21:17:15.103+0000] {taskinstance.py:1280} INFO - Starting attempt 2 of 6
+[2023-02-20T21:17:15.104+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T21:17:15.126+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_data> on 2023-02-19 21:00:00+00:00
+[2023-02-20T21:17:15.133+0000] {standard_task_runner.py:55} INFO - Started process 3911 to run task
+[2023-02-20T21:17:15.138+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ifgoiano_site_dag', 'get_data', 'scheduled__2023-02-19T21:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/ifgoiano_site_dag.py', '--cfg-path', '/tmp/tmpguffpfry']
+[2023-02-20T21:17:15.139+0000] {standard_task_runner.py:83} INFO - Job 20: Subtask get_data
+[2023-02-20T21:17:15.210+0000] {task_command.py:388} INFO - Running <TaskInstance: ifgoiano_site_dag.get_data scheduled__2023-02-19T21:00:00+00:00 [running]> on host f5b6b7502b7e
+[2023-02-20T21:17:15.295+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rafael
+AIRFLOW_CTX_DAG_ID=ifgoiano_site_dag
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-19T21:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2023-02-19T21:00:00+00:00
+[2023-02-20T21:17:46.502+0000] {logging_mixin.py:137} INFO - (1) - Retificado resultado preliminar para cursos superiores
+[2023-02-20T21:18:26.352+0000] {logging_mixin.py:137} INFO - (2) - Divulgado edital para seleção de bolsistas do curso de Pedagogia EAD
+[2023-02-20T21:19:16.045+0000] {logging_mixin.py:137} INFO - (3) - Divulgado edital IF Mais Empreendedor
+[2023-02-20T21:19:56.848+0000] {logging_mixin.py:137} INFO - (4) - Prorrogadas inscrições para mestrados e doutorado
+[2023-02-20T21:22:45.520+0000] {logging_mixin.py:137} INFO - (5) - Confira resultado preliminar de seleção para licença capacitação
+[2023-02-20T21:22:53.596+0000] {logging_mixin.py:137} INFO - (6) - Divulgado cronograma de resultados e matrículas para cursos superiores
+[2023-02-20T21:23:00.157+0000] {logging_mixin.py:137} INFO - (7) - Inscreva-se nos cursos do IF Goiano no Sisu
+[2023-02-20T21:23:07.934+0000] {logging_mixin.py:137} INFO - (8) - Confira resultado final para Pedagogia EAD
+[2023-02-20T21:23:14.422+0000] {logging_mixin.py:137} INFO - (9) - Lançado e-book Farol Literário
+[2023-02-20T21:23:22.142+0000] {logging_mixin.py:137} INFO - (10) - Últimos dias para se inscrever na seleção de mestrados e doutorado
+[2023-02-20T21:23:28.697+0000] {logging_mixin.py:137} INFO - (11) - Últimos dias para submeter artigos de Ciências Agrárias
+[2023-02-20T21:23:38.158+0000] {logging_mixin.py:137} INFO - (12) - Inscrições abertas para feira agroecológica
+[2023-02-20T21:23:45.907+0000] {logging_mixin.py:137} INFO - (13) - Divulgado resultado preliminar para Pedagogia EAD
+[2023-02-20T21:23:53.230+0000] {logging_mixin.py:137} INFO - (14) - Divulgada retificação de edital para bolsista de pós-doutorado
+[2023-02-20T21:24:01.010+0000] {logging_mixin.py:137} INFO - (15) - Divulgadas notas do Enem 2022
+[2023-02-20T21:24:07.635+0000] {logging_mixin.py:137} INFO - (16) - Divulgado edital de bolsas para mestrado e doutorado
+[2023-02-20T21:24:15.062+0000] {logging_mixin.py:137} INFO - (17) - Retificado edital de liberação de docentes para capacitação
+[2023-02-20T21:24:21.665+0000] {logging_mixin.py:137} INFO - (18) - Confira resultado preliminar para movimentação de pessoal
+[2023-02-20T21:24:29.294+0000] {logging_mixin.py:137} INFO - (19) - Últimos dias para se inscrever na seleção de mestrados e doutorado
+[2023-02-20T21:24:35.824+0000] {logging_mixin.py:137} INFO - (20) - Divulgado edital para bolsista de Pós-doutorado
+[2023-02-20T21:24:43.506+0000] {logging_mixin.py:137} INFO - (21) - Novas facilidades na licença por motivos de saúde
+[2023-02-20T21:24:50.367+0000] {logging_mixin.py:137} INFO - (22) - Veja retificação de edital para bolsista de pós-doutorado
+[2023-02-20T21:24:59.938+0000] {logging_mixin.py:137} INFO - (23) - Confira resultado final de seleção para licença capacitação
+[2023-02-20T21:25:06.867+0000] {logging_mixin.py:137} INFO - (24) - Divulgado retificação de edital de Dinter com a UFRRJ
+[2023-02-20T21:25:09.269+0000] {logging_mixin.py:137} INFO - (25) - Presidente recebe reitores no Planalto
+[2023-02-20T21:25:17.040+0000] {logging_mixin.py:137} INFO - (26) - Confira resultado preliminar de seleção para licença capacitação
+[2023-02-20T21:25:23.865+0000] {logging_mixin.py:137} INFO - (27) - Confira resultado preliminar de homologação de perfil de vagas
+[2023-02-20T21:25:31.484+0000] {logging_mixin.py:137} INFO - (28) - IF Goiano divulga VI edição da Ciclo Revista
+[2023-02-20T21:25:38.606+0000] {logging_mixin.py:137} INFO - (29) - Retificado prazo de entrega de documentos
+[2023-02-20T21:25:45.469+0000] {logging_mixin.py:137} INFO - (30) - Retificado edital de curso de Pedagogia EAD
+[2023-02-20T21:25:52.747+0000] {logging_mixin.py:137} INFO - (31) - Lançado edital para formação de Banco de Talentos do Ceagre
+[2023-02-20T21:25:59.785+0000] {logging_mixin.py:137} INFO - (32) - Seleção de obras para Tecnologias do Século 21 tem novo prazo de submissão
+[2023-02-20T21:26:07.408+0000] {logging_mixin.py:137} INFO - (33) - Retificado edital de seleção para mestrado profissional
+[2023-02-20T21:26:14.097+0000] {logging_mixin.py:137} INFO - (34) - Abertos editais para seleção de programas, projetos e cursos FIC
+[2023-02-20T21:26:29.113+0000] {logging_mixin.py:137} INFO - (35) - Divulgado edital para cadastro de projetos aprovados em editais externos
+[2023-02-20T21:26:38.817+0000] {logging_mixin.py:137} INFO - (36) - Aulas na Instituição recomeçam a partir de 30 de janeiro
+[2023-02-20T21:26:48.531+0000] {logging_mixin.py:137} INFO - (37) - Retificado edital de Licença Capacitação
+[2023-02-20T21:27:00.791+0000] {logging_mixin.py:137} INFO - (38) - Divulgado edital para bolsista de Pós-doutorado
+[2023-02-20T21:27:08.366+0000] {logging_mixin.py:137} INFO - (39) - Divulgado edital para alteração de PPC
+[2023-02-20T21:27:15.951+0000] {logging_mixin.py:137} INFO - (40) - Instituto aprova projetos de Inovação em edital da Setec
+[2023-02-20T21:27:23.987+0000] {logging_mixin.py:137} INFO - (41) - Últimos dias de inscrição para o Processo Seletivo de cursos superiores
+[2023-02-20T21:27:31.427+0000] {logging_mixin.py:137} INFO - (42) - Divulgado edital para seleção de bolsistas para o PET da Biologia do Campus Urutaí
+[2023-02-20T21:27:37.947+0000] {logging_mixin.py:137} INFO - (43) - Confira o resultado final para capacitação docente
+[2023-02-20T21:27:44.937+0000] {logging_mixin.py:137} INFO - (44) - Divulgado edital para Dinter com a UFRRJ
+[2023-02-20T21:27:52.083+0000] {logging_mixin.py:137} INFO - (45) - IF Goiano é destaque em premiação da Fapeg
+[2023-02-20T21:28:05.208+0000] {logging_mixin.py:137} INFO - (46) - Eventos devem ser cadastrados em novo módulo do Suap
+[2023-02-20T21:28:12.950+0000] {logging_mixin.py:137} INFO - (47) - Nota de Repúdio
+[2023-02-20T21:28:19.710+0000] {logging_mixin.py:137} INFO - (48) - Veja resultado final da Chamada Interna para Incubadoras de Empresa
+[2023-02-20T21:28:27.916+0000] {logging_mixin.py:137} INFO - (49) - Confira resultado final da eleição
+[2023-02-20T21:28:35.101+0000] {logging_mixin.py:137} INFO - (50) - IF Goiano oferece diversas oportunidades de cursos gratuitos
+[2023-02-20T21:28:41.941+0000] {logging_mixin.py:137} INFO - (51) - Divulgado resultado preliminar da eleição
+[2023-02-20T21:28:49.331+0000] {logging_mixin.py:137} INFO - (52) - Divulgada edição de dezembro do Boletim de Pesquisa, Pós-Graduação e Inovação
+[2023-02-20T21:28:55.922+0000] {logging_mixin.py:137} INFO - (53) - Divulgado resultado final da Avaliação Presencial de Língua Portuguesa
+[2023-02-20T21:29:04.980+0000] {logging_mixin.py:137} INFO - (54) - Votação acontece nesta quinta-feira, 8
+[2023-02-20T21:29:11.550+0000] {logging_mixin.py:137} INFO - (55) - Nota do IF Goiano sobre Bloqueio Orçamentário
+[2023-02-20T21:29:20.155+0000] {logging_mixin.py:137} INFO - (56) - Confira o resultado preliminar para capacitação docente
+[2023-02-20T21:29:27.255+0000] {logging_mixin.py:137} INFO - (57) - Retificado cronograma da seleção para Pedagogia EaD
+[2023-02-20T21:29:35.897+0000] {logging_mixin.py:137} INFO - (58) - Divulgados editais de seleção para mestrados e doutorado
+[2023-02-20T21:29:42.978+0000] {logging_mixin.py:137} INFO - (59) - Inscrições abertas para seleção de mestrados e doutorado
+[2023-02-20T21:29:50.326+0000] {logging_mixin.py:137} INFO - (60) - Divulgado resultado para movimentação de pessoal
+[2023-02-20T21:29:56.981+0000] {logging_mixin.py:137} INFO - (61) - Confira resultado preliminar para movimentação de pessoal
+[2023-02-20T21:30:00.908+0000] {logging_mixin.py:137} INFO - (62) - Diversas atrações nos últimos dias da Semana Nacional de EPT
+[2023-02-20T21:30:04.113+0000] {logging_mixin.py:137} INFO - (63) - As contribuições da Finep para a pesquisa e inovação do Brasil
+[2023-02-20T21:30:09.805+0000] {logging_mixin.py:137} INFO - (64) - Protagonismo da Educação frente aos desafios do mundo é tema da abertura do evento
+[2023-02-20T21:30:15.447+0000] {logging_mixin.py:137} INFO - (65) - Pesquisa e pós-graduação em Goiás: o que esperar nos próximos anos
+[2023-02-20T21:30:22.768+0000] {logging_mixin.py:137} INFO - (66) - Pesquisa e pós-graduação no Brasil: entraves, desafios e sugestões
+[2023-02-20T21:30:30.750+0000] {logging_mixin.py:137} INFO - (67) - Divulgado resultado final de bolsas para mestrado e doutorado
+[2023-02-20T21:30:37.782+0000] {logging_mixin.py:137} INFO - (68) - Divulgada lista final de candidatos ao Conselho Superior
+[2023-02-20T21:30:45.870+0000] {logging_mixin.py:137} INFO - (69) - Confira resultados do Programa Estudante Atleta
+[2023-02-20T21:30:55.168+0000] {logging_mixin.py:137} INFO - (70) - Divulgada lista preliminar de candidatos ao Conselho Superior
+[2023-02-20T21:31:02.517+0000] {logging_mixin.py:137} INFO - (71) - Começa Congresso de Educação Especial
+[2023-02-20T21:31:10.551+0000] {logging_mixin.py:137} INFO - (72) - Lançado edital para bolsista de pós-doutorado
+[2023-02-20T21:31:18.376+0000] {logging_mixin.py:137} INFO - (73) - Inscreva-se nos cursos de Especialização EaD
+[2023-02-20T21:31:27.055+0000] {logging_mixin.py:137} INFO - (74) - Divulgado resultado preliminar de bolsas para mestrado e doutorado
+[2023-02-20T21:31:40.470+0000] {logging_mixin.py:137} INFO - (75) - IF Goiano divulga novo questionário para egressos
+[2023-02-20T21:31:48.480+0000] {logging_mixin.py:137} INFO - (76) - Divulgado resultado final de artigos para a VI edição da Ciclo Revista
+[2023-02-20T21:31:55.671+0000] {logging_mixin.py:137} INFO - (77) - NOTA OFICIAL
+[2023-02-20T21:32:05.133+0000] {logging_mixin.py:137} INFO - (78) - Confira resultado final de seleção para licença capacitação
+[2023-02-20T21:32:34.759+0000] {logging_mixin.py:137} INFO - (79) - Veja resultado preliminar da Chamada Interna para Incubadoras de Empresa
+[2023-02-20T21:32:38.855+0000] {logging_mixin.py:137} INFO - (80) - Egressos participam de encontro institucional
+[2023-02-20T21:32:48.594+0000] {logging_mixin.py:137} INFO - (81) - IF Goiano participa de catálogo de publicação de editoras
+[2023-02-20T21:32:56.803+0000] {logging_mixin.py:137} INFO - (82) - Prorrogadas inscrições para o 11º Congresso de Pesquisa e Pós-graduação do Campus Rio Verde
+[2023-02-20T21:33:03.985+0000] {logging_mixin.py:137} INFO - (83) - Saiba como o IF Goiano funcionará durante a Copa do Mundo
+[2023-02-20T21:33:12.571+0000] {logging_mixin.py:137} INFO - (84) - Retificado resultado preliminar de seleção para licença capacitação
+[2023-02-20T21:33:39.271+0000] {logging_mixin.py:137} INFO - (85) - IF Goiano realiza minicurso sobre direito às cotas
+[2023-02-20T21:33:51.302+0000] {logging_mixin.py:137} INFO - (86) - IF Goiano promove jornada científica
+[2023-02-20T21:34:01.460+0000] {logging_mixin.py:137} INFO - (87) - IF Goiano promove reunião do Comitê Gestor de Assuntos Estudantis
+[2023-02-20T21:34:20.530+0000] {logging_mixin.py:137} INFO - (88) - Divulgada lista de inscritos no Processo Seletivo em Pedagogia EAD
+[2023-02-20T21:36:58.057+0000] {base_job.py:243} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 215, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3057, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3135, in _merge
+    options=options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2856, in get
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2974, in _get_impl
+    load_options=load_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 534, in load_on_pk_identity
+    bind_arguments=bind_arguments,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1713, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1553, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3315, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3394, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3365, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2199, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-02-20T21:37:48.307+0000] {base_job.py:243} ERROR - LocalTaskJob heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "postgres" to address: Temporary failure in name resolution
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/jobs/base_job.py", line 215, in heartbeat
+    session.merge(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3057, in merge
+    _resolve_conflict_map=_resolve_conflict_map,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 3135, in _merge
+    options=options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2856, in get
+    execution_options=execution_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 2974, in _get_impl
+    load_options=load_options,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/loading.py", line 534, in load_on_pk_identity
+    bind_arguments=bind_arguments,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1713, in execute
+    conn = self._connection_for_bind(bind)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 1553, in _connection_for_bind
+    engine, execution_options
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/orm/session.py", line 747, in _connection_for_bind
+    conn = bind.connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3315, in connect
+    return self._connection_cls(self, close_with_result=close_with_result)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+    else engine.raw_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3394, in raw_connection
+    return self._wrap_pool_connect(self.pool.connect, _connection)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3365, in _wrap_pool_connect
+    e, dialect, self
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 2199, in _handle_dbapi_exception_noconnection
+    sqlalchemy_exception, with_traceback=exc_info[2], from_=e
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/base.py", line 3361, in _wrap_pool_connect
+    return fn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+    return _ConnectionFairy._checkout(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+    fairy = _ConnectionRecord.checkout(pool)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+    rec = pool._do_get()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+    return self._create_connection()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+    return _ConnectionRecord(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+    self.__connect()
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 691, in __connect
+    pool.logger.debug("Error on connect(): %s", e)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/langhelpers.py", line 72, in __exit__
+    with_traceback=exc_tb,
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+    self.dbapi_connection = connection = pool._invoke_creator(self)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/create.py", line 578, in connect
+    return dialect.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+    return self.dbapi.connect(*cargs, **cparams)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+sqlalchemy.exc.OperationalError: (psycopg2.OperationalError) could not translate host name "postgres" to address: Temporary failure in name resolution
+
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-02-20T21:38:23.734+0000] {logging_mixin.py:137} INFO - ----- Exception raised: WebDriverException -----
+[2023-02-20T21:38:23.885+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-20T21:38:25.203+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=ifgoiano_site_dag, task_id=get_data, execution_date=20230219T210000, start_date=20230220T211715, end_date=20230220T213825
+[2023-02-20T21:38:25.892+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-20T21:38:26.123+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

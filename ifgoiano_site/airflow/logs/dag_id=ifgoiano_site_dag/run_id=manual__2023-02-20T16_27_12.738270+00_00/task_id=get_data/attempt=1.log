@@ -1,0 +1,43 @@
+[2023-02-20T16:27:14.864+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:27:12.738270+00:00 [queued]>
+[2023-02-20T16:27:14.882+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:27:12.738270+00:00 [queued]>
+[2023-02-20T16:27:14.882+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T16:27:14.882+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 6
+[2023-02-20T16:27:14.882+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-20T16:27:14.904+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_data> on 2023-02-20 16:27:12.738270+00:00
+[2023-02-20T16:27:14.911+0000] {standard_task_runner.py:55} INFO - Started process 4481 to run task
+[2023-02-20T16:27:14.916+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ifgoiano_site_dag', 'get_data', 'manual__2023-02-20T16:27:12.738270+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/ifgoiano_site_dag.py', '--cfg-path', '/tmp/tmpcovrli0e']
+[2023-02-20T16:27:14.919+0000] {standard_task_runner.py:83} INFO - Job 11: Subtask get_data
+[2023-02-20T16:27:14.997+0000] {task_command.py:388} INFO - Running <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-20T16:27:12.738270+00:00 [running]> on host f5b6b7502b7e
+[2023-02-20T16:27:15.076+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rafael
+AIRFLOW_CTX_DAG_ID=ifgoiano_site_dag
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-20T16:27:12.738270+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-20T16:27:12.738270+00:00
+[2023-02-20T16:27:15.079+0000] {logger.py:11} INFO - ====== WebDriver manager ======
+[2023-02-20T16:27:15.235+0000] {logger.py:11} INFO - Get LATEST chromedriver version for chromium 110.0.5481
+[2023-02-20T16:27:15.567+0000] {logger.py:11} INFO - Driver [/home/***/.wdm/drivers/chromedriver/linux64/110.0.5481/chromedriver] found in cache
+[2023-02-20T16:27:16.457+0000] {logging_mixin.py:137} INFO - ----- Bot is running -----
+[2023-02-20T16:27:43.304+0000] {logging_mixin.py:137} INFO - (1) - Retificado resultado preliminar para cursos superiores
+[2023-02-20T16:28:23.553+0000] {logging_mixin.py:137} INFO - (2) - Divulgado edital para seleção de bolsistas do curso de Pedagogia EAD
+[2023-02-20T16:29:13.024+0000] {logging_mixin.py:137} INFO - (3) - Divulgado edital IF Mais Empreendedor
+[2023-02-20T16:29:53.041+0000] {logging_mixin.py:137} INFO - (4) - Prorrogadas inscrições para mestrados e doutorado
+[2023-02-20T16:33:01.592+0000] {logging_mixin.py:137} INFO - (5) - Confira resultado preliminar de seleção para licença capacitação
+[2023-02-20T16:33:08.387+0000] {logging_mixin.py:137} INFO - (6) - Divulgado cronograma de resultados e matrículas para cursos superiores
+[2023-02-20T16:33:17.687+0000] {logging_mixin.py:137} INFO - (7) - Inscreva-se nos cursos do IF Goiano no Sisu
+[2023-02-20T16:33:24.273+0000] {logging_mixin.py:137} INFO - (8) - Confira resultado final para Pedagogia EAD
+[2023-02-20T16:33:32.900+0000] {logging_mixin.py:137} INFO - (9) - Lançado e-book Farol Literário
+[2023-02-20T16:33:39.596+0000] {logging_mixin.py:137} INFO - (10) - Últimos dias para se inscrever na seleção de mestrados e doutorado
+[2023-02-20T16:33:41.480+0000] {logging_mixin.py:137} INFO - ----------------------------------------------------------------------------------------------------
+[2023-02-20T16:33:41.480+0000] {logging_mixin.py:137} INFO - |                            Bot started on 2023-02-20 13:27:16.458275                             |
+[2023-02-20T16:33:41.492+0000] {logging_mixin.py:137} INFO - |                            Bot finished on 2023-02-20 13:33:41.480329                            |
+[2023-02-20T16:33:41.492+0000] {logging_mixin.py:137} INFO - |                                    Time spent: 0:06:25.022054                                    |
+[2023-02-20T16:33:41.492+0000] {logging_mixin.py:137} INFO - |                                   Total of posts extracted: 10                                   |
+[2023-02-20T16:33:41.500+0000] {logging_mixin.py:137} INFO - ----------------------------------------------------------------------------------------------------
+[2023-02-20T16:33:42.217+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-20T16:33:42.572+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=ifgoiano_site_dag, task_id=get_data, execution_date=20230220T162712, start_date=20230220T162714, end_date=20230220T163342
+[2023-02-20T16:33:43.847+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-20T16:33:44.052+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

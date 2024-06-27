@@ -1,0 +1,119 @@
+[2023-02-21T11:46:46.260+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-21T11:46:35.088393+00:00 [queued]>
+[2023-02-21T11:46:46.280+0000] {taskinstance.py:1083} INFO - Dependencies all met for <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-21T11:46:35.088393+00:00 [queued]>
+[2023-02-21T11:46:46.281+0000] {taskinstance.py:1279} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T11:46:46.282+0000] {taskinstance.py:1280} INFO - Starting attempt 1 of 6
+[2023-02-21T11:46:46.282+0000] {taskinstance.py:1281} INFO - 
+--------------------------------------------------------------------------------
+[2023-02-21T11:46:46.304+0000] {taskinstance.py:1300} INFO - Executing <Task(PythonOperator): get_data> on 2023-02-21 11:46:35.088393+00:00
+[2023-02-21T11:46:46.312+0000] {standard_task_runner.py:55} INFO - Started process 314 to run task
+[2023-02-21T11:46:46.318+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'ifgoiano_site_dag', 'get_data', 'manual__2023-02-21T11:46:35.088393+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ifgoiano_site_dag.py', '--cfg-path', '/tmp/tmpbfrmeus8']
+[2023-02-21T11:46:46.318+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask get_data
+[2023-02-21T11:46:46.403+0000] {task_command.py:388} INFO - Running <TaskInstance: ifgoiano_site_dag.get_data manual__2023-02-21T11:46:35.088393+00:00 [running]> on host c3d004856851
+[2023-02-21T11:46:46.489+0000] {taskinstance.py:1509} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=Rafael
+AIRFLOW_CTX_DAG_ID=ifgoiano_site_dag
+AIRFLOW_CTX_TASK_ID=get_data
+AIRFLOW_CTX_EXECUTION_DATE=2023-02-21T11:46:35.088393+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2023-02-21T11:46:35.088393+00:00
+[2023-02-21T11:46:46.494+0000] {logging_mixin.py:137} INFO - ----- Bot is running -----
+[2023-02-21T11:47:06.622+0000] {logging_mixin.py:137} INFO - (1) - Retificado resultado preliminar para cursos superiores
+[2023-02-21T11:47:35.816+0000] {logging_mixin.py:137} INFO - (2) - Divulgado edital para seleção de bolsistas do curso de Pedagogia EAD
+[2023-02-21T11:48:04.429+0000] {logging_mixin.py:137} INFO - (3) - Divulgado edital IF Mais Empreendedor
+[2023-02-21T11:48:34.898+0000] {logging_mixin.py:137} INFO - (4) - Prorrogadas inscrições para mestrados e doutorado
+[2023-02-21T11:52:24.663+0000] {logging_mixin.py:137} INFO - (5) - Confira resultado preliminar de seleção para licença capacitação
+[2023-02-21T11:52:36.535+0000] {logging_mixin.py:137} INFO - (6) - Divulgado cronograma de resultados e matrículas para cursos superiores
+[2023-02-21T11:52:45.500+0000] {logging_mixin.py:137} INFO - (7) - Inscreva-se nos cursos do IF Goiano no Sisu
+[2023-02-21T11:52:54.473+0000] {logging_mixin.py:137} INFO - (8) - Confira resultado final para Pedagogia EAD
+[2023-02-21T11:53:01.163+0000] {logging_mixin.py:137} INFO - (9) - Lançado e-book Farol Literário
+[2023-02-21T11:53:11.249+0000] {logging_mixin.py:137} INFO - (10) - Últimos dias para se inscrever na seleção de mestrados e doutorado
+[2023-02-21T11:53:18.963+0000] {logging_mixin.py:137} INFO - (11) - Últimos dias para submeter artigos de Ciências Agrárias
+[2023-02-21T11:53:32.900+0000] {logging_mixin.py:137} INFO - (12) - Inscrições abertas para feira agroecológica
+[2023-02-21T11:53:40.381+0000] {logging_mixin.py:137} INFO - (13) - Divulgado resultado preliminar para Pedagogia EAD
+[2023-02-21T11:53:49.158+0000] {logging_mixin.py:137} INFO - (14) - Divulgada retificação de edital para bolsista de pós-doutorado
+[2023-02-21T11:53:55.800+0000] {logging_mixin.py:137} INFO - (15) - Divulgadas notas do Enem 2022
+[2023-02-21T11:54:03.755+0000] {logging_mixin.py:137} INFO - (16) - Divulgado edital de bolsas para mestrado e doutorado
+[2023-02-21T11:54:10.478+0000] {logging_mixin.py:137} INFO - (17) - Retificado edital de liberação de docentes para capacitação
+[2023-02-21T11:54:19.374+0000] {logging_mixin.py:137} INFO - (18) - Confira resultado preliminar para movimentação de pessoal
+[2023-02-21T11:54:29.740+0000] {logging_mixin.py:137} INFO - (19) - Últimos dias para se inscrever na seleção de mestrados e doutorado
+[2023-02-21T11:54:40.023+0000] {logging_mixin.py:137} INFO - (20) - Divulgado edital para bolsista de Pós-doutorado
+[2023-02-21T11:54:48.747+0000] {logging_mixin.py:137} INFO - (21) - Novas facilidades na licença por motivos de saúde
+[2023-02-21T11:54:57.340+0000] {logging_mixin.py:137} INFO - (22) - Veja retificação de edital para bolsista de pós-doutorado
+[2023-02-21T11:55:06.724+0000] {logging_mixin.py:137} INFO - (23) - Confira resultado final de seleção para licença capacitação
+[2023-02-21T11:55:16.744+0000] {logging_mixin.py:137} INFO - (24) - Divulgado retificação de edital de Dinter com a UFRRJ
+[2023-02-21T11:55:20.434+0000] {logging_mixin.py:137} INFO - (25) - Presidente recebe reitores no Planalto
+[2023-02-21T11:55:29.765+0000] {logging_mixin.py:137} INFO - (26) - Confira resultado preliminar de seleção para licença capacitação
+[2023-02-21T11:55:39.039+0000] {logging_mixin.py:137} INFO - (27) - Confira resultado preliminar de homologação de perfil de vagas
+[2023-02-21T11:55:51.508+0000] {logging_mixin.py:137} INFO - (28) - IF Goiano divulga VI edição da Ciclo Revista
+[2023-02-21T11:55:58.366+0000] {logging_mixin.py:137} INFO - (29) - Retificado prazo de entrega de documentos
+[2023-02-21T11:56:07.691+0000] {logging_mixin.py:137} INFO - (30) - Retificado edital de curso de Pedagogia EAD
+[2023-02-21T11:56:14.709+0000] {logging_mixin.py:137} INFO - (31) - Lançado edital para formação de Banco de Talentos do Ceagre
+[2023-02-21T11:56:24.716+0000] {logging_mixin.py:137} INFO - (32) - Seleção de obras para Tecnologias do Século 21 tem novo prazo de submissão
+[2023-02-21T11:56:32.530+0000] {logging_mixin.py:137} INFO - (33) - Retificado edital de seleção para mestrado profissional
+[2023-02-21T11:56:42.495+0000] {logging_mixin.py:137} INFO - (34) - Abertos editais para seleção de programas, projetos e cursos FIC
+[2023-02-21T11:56:55.956+0000] {logging_mixin.py:137} INFO - (35) - Divulgado edital para cadastro de projetos aprovados em editais externos
+[2023-02-21T11:57:03.457+0000] {logging_mixin.py:137} INFO - (36) - Aulas na Instituição recomeçam a partir de 30 de janeiro
+[2023-02-21T11:57:11.693+0000] {logging_mixin.py:137} INFO - (37) - Retificado edital de Licença Capacitação
+[2023-02-21T11:57:21.622+0000] {logging_mixin.py:137} INFO - (38) - Divulgado edital para bolsista de Pós-doutorado
+[2023-02-21T11:57:29.033+0000] {logging_mixin.py:137} INFO - (39) - Divulgado edital para alteração de PPC
+[2023-02-21T11:57:38.965+0000] {logging_mixin.py:137} INFO - (40) - Instituto aprova projetos de Inovação em edital da Setec
+[2023-02-21T11:57:47.078+0000] {logging_mixin.py:137} INFO - (41) - Últimos dias de inscrição para o Processo Seletivo de cursos superiores
+[2023-02-21T11:58:01.854+0000] {logging_mixin.py:137} INFO - (42) - Divulgado edital para seleção de bolsistas para o PET da Biologia do Campus Urutaí
+[2023-02-21T11:58:13.433+0000] {logging_mixin.py:137} INFO - (43) - Confira o resultado final para capacitação docente
+[2023-02-21T11:58:21.168+0000] {logging_mixin.py:137} INFO - (44) - Divulgado edital para Dinter com a UFRRJ
+[2023-02-21T11:58:31.325+0000] {logging_mixin.py:137} INFO - (45) - IF Goiano é destaque em premiação da Fapeg
+[2023-02-21T11:58:38.242+0000] {logging_mixin.py:137} INFO - (46) - Eventos devem ser cadastrados em novo módulo do Suap
+[2023-02-21T11:58:48.939+0000] {logging_mixin.py:137} INFO - (47) - Nota de Repúdio
+[2023-02-21T11:58:57.505+0000] {logging_mixin.py:137} INFO - (48) - Veja resultado final da Chamada Interna para Incubadoras de Empresa
+[2023-02-21T11:59:10.676+0000] {logging_mixin.py:137} INFO - (49) - Confira resultado final da eleição
+[2023-02-21T11:59:19.262+0000] {logging_mixin.py:137} INFO - (50) - IF Goiano oferece diversas oportunidades de cursos gratuitos
+[2023-02-21T11:59:25.749+0000] {logging_mixin.py:137} INFO - (51) - Divulgado resultado preliminar da eleição
+[2023-02-21T11:59:37.613+0000] {logging_mixin.py:137} INFO - (52) - Divulgada edição de dezembro do Boletim de Pesquisa, Pós-Graduação e Inovação
+[2023-02-21T11:59:45.925+0000] {logging_mixin.py:137} INFO - (53) - Divulgado resultado final da Avaliação Presencial de Língua Portuguesa
+[2023-02-21T11:59:54.098+0000] {logging_mixin.py:137} INFO - (54) - Votação acontece nesta quinta-feira, 8
+[2023-02-21T12:00:02.442+0000] {logging_mixin.py:137} INFO - (55) - Nota do IF Goiano sobre Bloqueio Orçamentário
+[2023-02-21T12:00:16.329+0000] {logging_mixin.py:137} INFO - (56) - Confira o resultado preliminar para capacitação docente
+[2023-02-21T12:00:23.892+0000] {logging_mixin.py:137} INFO - (57) - Retificado cronograma da seleção para Pedagogia EaD
+[2023-02-21T12:00:32.443+0000] {logging_mixin.py:137} INFO - (58) - Divulgados editais de seleção para mestrados e doutorado
+[2023-02-21T12:00:39.443+0000] {logging_mixin.py:137} INFO - (59) - Inscrições abertas para seleção de mestrados e doutorado
+[2023-02-21T12:00:50.724+0000] {logging_mixin.py:137} INFO - (60) - Divulgado resultado para movimentação de pessoal
+[2023-02-21T12:00:58.245+0000] {logging_mixin.py:137} INFO - (61) - Confira resultado preliminar para movimentação de pessoal
+[2023-02-21T12:01:01.271+0000] {logging_mixin.py:137} INFO - (62) - Diversas atrações nos últimos dias da Semana Nacional de EPT
+[2023-02-21T12:01:04.269+0000] {logging_mixin.py:137} INFO - (63) - As contribuições da Finep para a pesquisa e inovação do Brasil
+[2023-02-21T12:01:06.376+0000] {logging_mixin.py:137} INFO - (64) - Protagonismo da Educação frente aos desafios do mundo é tema da abertura do evento
+[2023-02-21T12:01:08.217+0000] {logging_mixin.py:137} INFO - (65) - Pesquisa e pós-graduação em Goiás: o que esperar nos próximos anos
+[2023-02-21T12:01:15.006+0000] {logging_mixin.py:137} INFO - (66) - Pesquisa e pós-graduação no Brasil: entraves, desafios e sugestões
+[2023-02-21T12:01:24.586+0000] {logging_mixin.py:137} INFO - (67) - Divulgado resultado final de bolsas para mestrado e doutorado
+[2023-02-21T12:01:32.453+0000] {logging_mixin.py:137} INFO - (68) - Divulgada lista final de candidatos ao Conselho Superior
+[2023-02-21T12:01:39.961+0000] {logging_mixin.py:137} INFO - (69) - Confira resultados do Programa Estudante Atleta
+[2023-02-21T12:01:47.329+0000] {logging_mixin.py:137} INFO - (70) - Divulgada lista preliminar de candidatos ao Conselho Superior
+[2023-02-21T12:01:56.010+0000] {logging_mixin.py:137} INFO - (71) - Começa Congresso de Educação Especial
+[2023-02-21T12:02:07.935+0000] {logging_mixin.py:137} INFO - (72) - Lançado edital para bolsista de pós-doutorado
+[2023-02-21T12:02:20.554+0000] {logging_mixin.py:137} INFO - (73) - Inscreva-se nos cursos de Especialização EaD
+[2023-02-21T12:02:27.347+0000] {logging_mixin.py:137} INFO - (74) - Divulgado resultado preliminar de bolsas para mestrado e doutorado
+[2023-02-21T12:02:37.473+0000] {logging_mixin.py:137} INFO - (75) - IF Goiano divulga novo questionário para egressos
+[2023-02-21T12:02:45.212+0000] {logging_mixin.py:137} INFO - (76) - Divulgado resultado final de artigos para a VI edição da Ciclo Revista
+[2023-02-21T12:02:54.352+0000] {logging_mixin.py:137} INFO - (77) - NOTA OFICIAL
+[2023-02-21T12:03:02.252+0000] {logging_mixin.py:137} INFO - (78) - Confira resultado final de seleção para licença capacitação
+[2023-02-21T12:03:10.695+0000] {logging_mixin.py:137} INFO - (79) - Veja resultado preliminar da Chamada Interna para Incubadoras de Empresa
+[2023-02-21T12:03:28.230+0000] {logging_mixin.py:137} INFO - (80) - Egressos participam de encontro institucional
+[2023-02-21T12:03:37.848+0000] {logging_mixin.py:137} INFO - (81) - IF Goiano participa de catálogo de publicação de editoras
+[2023-02-21T12:03:44.563+0000] {logging_mixin.py:137} INFO - (82) - Prorrogadas inscrições para o 11º Congresso de Pesquisa e Pós-graduação do Campus Rio Verde
+[2023-02-21T12:03:52.125+0000] {logging_mixin.py:137} INFO - (83) - Saiba como o IF Goiano funcionará durante a Copa do Mundo
+[2023-02-21T12:03:58.748+0000] {logging_mixin.py:137} INFO - (84) - Retificado resultado preliminar de seleção para licença capacitação
+[2023-02-21T12:04:14.724+0000] {logging_mixin.py:137} INFO - (85) - IF Goiano realiza minicurso sobre direito às cotas
+[2023-02-21T12:04:21.602+0000] {logging_mixin.py:137} INFO - (86) - IF Goiano promove jornada científica
+[2023-02-21T12:04:30.653+0000] {logging_mixin.py:137} INFO - (87) - IF Goiano promove reunião do Comitê Gestor de Assuntos Estudantis
+[2023-02-21T12:04:38.180+0000] {logging_mixin.py:137} INFO - (88) - Divulgada lista de inscritos no Processo Seletivo em Pedagogia EAD
+[2023-02-21T12:04:55.565+0000] {logging_mixin.py:137} INFO - (89) - Confira resultado final de seleção para licença capacitação
+[2023-02-21T12:06:07.900+0000] {logging_mixin.py:137} INFO - (90) - Começa o IV Integra IF Goiano
+[2023-02-21T12:07:19.722+0000] {logging_mixin.py:137} INFO - (91) - Divulgado resultado final de seleção de intercâmbio
+[2023-02-21T12:07:31.602+0000] {logging_mixin.py:137} INFO - (92) - IF Goiano realiza eventos de Pesquisa, Pós-graduação e Inovação
+[2023-02-21T12:10:51.104+0000] {logging_mixin.py:137} INFO - (93) - Prorrogadas inscrições para candidatos ao Conselho Superior
+[2023-02-21T12:11:05.428+0000] {logging_mixin.py:137} INFO - (94) - Prorrogado o período de inscrição até o dia 18 de novembro em suas unidades.
+[2023-02-21T12:16:55.742+0000] {logging_mixin.py:137} INFO - ----- Exception raised: WebDriverException -----
+[2023-02-21T12:16:56.490+0000] {python.py:177} INFO - Done. Returned value was: None
+[2023-02-21T12:16:58.521+0000] {taskinstance.py:1323} INFO - Marking task as SUCCESS. dag_id=ifgoiano_site_dag, task_id=get_data, execution_date=20230221T114635, start_date=20230221T114646, end_date=20230221T121658
+[2023-02-21T12:17:00.304+0000] {local_task_job.py:208} INFO - Task exited with return code 0
+[2023-02-21T12:17:00.694+0000] {taskinstance.py:2578} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,46 @@
+Traceback (most recent call last):
+  File "/home/leafar/Documents/dev/projeto_ic/bots/facebook/facebook2.py", line 509, in <module>
+    rand_scroll = randint(0, self._get_max_scroll_pos())
+  File "/home/leafar/Documents/dev/projeto_ic/bots/facebook/facebook2.py", line 496, in get_posts
+    #     feed_div_children = feed_div.find_elements(By.XPATH, './*')
+  File "/home/leafar/Documents/dev/projeto_ic/bots/facebook/facebook2.py", line 285, in _extract_posts
+    self._curr_scroll_pos = self._get_current_scroll_pos()
+  File "/home/leafar/Documents/dev/projeto_ic/bots/facebook/facebook2.py", line 413, in _extract_data
+    #         return clean_str(self._driver.find_element(By.ID, aria_describedby).get_attribute('innerText'))
+  File "/home/leafar/Documents/dev/projeto_ic/bots/facebook/facebook2.py", line 409, in _get_web_elements_of_posts
+    #     action_builder.perform()
+  File "/home/leafar/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 456, in find_elements
+    return self._execute(Command.FIND_CHILD_ELEMENTS, {"using": by, "value": value})["value"]
+  File "/home/leafar/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webelement.py", line 410, in _execute
+    return self._parent.execute(command, params)
+  File "/home/leafar/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 444, in execute
+    self.error_handler.check_response(response)
+  File "/home/leafar/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 249, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: headless chrome=112.0.5615.121)
+Stacktrace:
+#0 0x556e40b0cfe3 <unknown>
+#1 0x556e4084bbc1 <unknown>
+#2 0x556e40835ad2 <unknown>
+#3 0x556e40834608 <unknown>
+#4 0x556e40834db2 <unknown>
+#5 0x556e40842283 <unknown>
+#6 0x556e408432c2 <unknown>
+#7 0x556e40853711 <unknown>
+#8 0x556e408c2394 <unknown>
+#9 0x556e408a9693 <unknown>
+#10 0x556e4087c03a <unknown>
+#11 0x556e4087d17e <unknown>
+#12 0x556e40acedbd <unknown>
+#13 0x556e40ad2c6c <unknown>
+#14 0x556e40adc4b0 <unknown>
+#15 0x556e40ad3d63 <unknown>
+#16 0x556e40aa6c35 <unknown>
+#17 0x556e40af7138 <unknown>
+#18 0x556e40af72c7 <unknown>
+#19 0x556e40b05093 <unknown>
+#20 0x7f8c93abcbb5 <unknown>
+
